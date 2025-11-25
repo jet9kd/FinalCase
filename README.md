@@ -83,13 +83,13 @@ Changing and updating the project is easy, as a result of a small codebase.
  No secrets required, validate that uploaded files are valid images, and images may contain PII but it processes locally and doesn't send to external services. 
 
 ### Ops  
-### Logs/metrics
+#### Logs/metrics
 The service logs basic activity automatically through FastAPI/Uvicorn (request path, status, timestamp). Application-level logs could be added to capture processing time, input size, and errors, but are not required
 
-### Scaling Considerations
+#### Scaling Considerations
 Moving long-running jobs to a background queue and adding caching of results.
 
-### Known limitations
+#### Known limitations
 The generated palettes are very fast, k-means would be a more precise solution but heavier.
 Additionally, output files with the same name may result in cached images.
 
