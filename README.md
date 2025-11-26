@@ -41,7 +41,7 @@ docker build -t paletteviz:latest .
 docker run --rm -p 8000:8000 \
   -v "$(pwd)/assets":/app/assets \
   -v "$(pwd)/output":/app/output \
-  Paletteviz:latest
+  paletteviz:latest
 # health check 
 test -f output/palette.png && echo "OK" || echo "FAILED"
 ```
@@ -104,4 +104,3 @@ Additionally, output files with the same name may result in cached images.
 
 ## 7) Links
 Github Repository: https://github.com/jet9kd/Final-Project
-# FinalCase
