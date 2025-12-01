@@ -17,9 +17,9 @@ Architecture Diagram:
 ### Data: 
 Sample Input Image: stored in assets/sample.jpg
 Source: User-provided image
+  Image is "Lavender Hill with Green" by Georgia O'Keefe
 Format: JPEG (can also use PNG, WEBP, and GIF)
 Size: 174,939 bytes
-License: cite
 
 ### Models
  Color Quantization Algorithm: Pillow's built-in adaptive palette (Image.ADAPTIVE).
